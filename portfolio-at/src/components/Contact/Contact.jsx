@@ -8,7 +8,7 @@ import github from "../../assets/socials/github.svg"
 const Contact = () => {
     return (
         <section id="contact" className="flex items-center justify-center my-10">
-            <div className="bg-yellow-500 shadow-lg rounded-lg p-8 text-center w-full mx-36">
+            <div className="bg-amber-300 bg-blend-overlay shadow-lg rounded-lg p-8 text-center w-full mx-36">
                 <hr className="border-1 mb-4" />
                 <div className="flex items-center justify-center mb-4">
                     <h2 className="font-[poppins] text-6xl lg:text-6xl">C</h2>

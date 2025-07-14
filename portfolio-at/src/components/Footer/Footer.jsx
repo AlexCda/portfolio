@@ -5,7 +5,7 @@ import linkedin from '../../assets/socials/linkedin.svg';
 const Footer = () => {
     return (
         <>
-            <hr className="border-1 my-4" />
+            <hr className="border-1 my-4 border-amber-500" />
             <footer className="flex flex-col items-center justify-center py-5">
                 <div className="flex flex-col sm:flex-row gap-4 w-full items-center justify-center">
                     {/* <p className="text-center sm:text-left">Retrouvez-moi sur: </p> */}
