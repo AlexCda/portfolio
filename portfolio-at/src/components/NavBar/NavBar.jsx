@@ -77,37 +77,37 @@ const Navbar = () => {
             {/* Navbar */}
             <nav
                 className={`navbar sticky top-0 text-bold 
-                            ${scrolled ? ' md:bg-amber-300 py-2 opacity-80 z-50' : ''} 
-                            ${isOpen ? ' bg-amber-50' : 'bg-transparent'}`
+                            ${scrolled ? ' md:bg-yellow-300 py-2 opacity-80 z-50' : ''} 
+                            ${isOpen ? ' bg-yellow-50' : 'bg-transparent'}`
                 }
             >
                 <div className="navbar-container py-5">
                     <ul className={`nav-menu gap-2 flex flex-col lg:flex-row lg:justify-evenly items-center text-xl ${isOpen ? 'block' : 'hidden'} lg:flex`}>
-                        <li className="nav-item hover:scale-110 active:text-amber-300 border-b-2 border-amber-600 md:border-none">
+                        <li className="nav-item hover:scale-110 active:text-blue-300 border-b-2 border-blue-600 md:border-none">
                             <Link to="/" className="nav-links" onClick={closeMenu}>
                                 Accueil
                             </Link>
                         </li>
                         <li className="text-xl hidden md:block">|</li>
-                        <li className="nav-item hover:scale-110 active:text-amber-300 border-b-2 border-amber-600 md:border-none">
+                        <li className="nav-item hover:scale-110 active:text-blue-300 border-b-2 border-blue-600 md:border-none">
                             <a href="/#about" className="nav-links" onClick={closeMenu}>
                                 A propos
                             </a>
                         </li>
                         <li className="text-xl hidden md:block">|</li>
-                        <li className="nav-item hover:scale-110 active:text-amber-300 border-b-2 border-amber-600 md:border-none">
+                        <li className="nav-item hover:scale-110 active:text-blue-300 border-b-2 border-blue-600 md:border-none">
                             <Link to="/formation" className="nav-links" onClick={closeMenu}>
                                 Formation
                             </Link>
                         </li>
                         <li className="md:text-xl hidden md:block">|</li>
-                        <li className="nav-item hover:scale-110 active:text-amber-300 border-b-2 border-amber-600 md:border-none">
+                        <li className="nav-item hover:scale-110 active:text-blue-300 border-b-2 border-blue-600 md:border-none">
                             <Link to="/projects" className="nav-links" onClick={closeMenu}>
                                 Portfolio
                             </Link>
                         </li>
                         <li className="text-xl hidden md:block">|</li>
-                        <li className="nav-item hover:scale-110 active:text-amber-300 border-b-2 border-amber-600 md:border-none">
+                        <li className="nav-item hover:scale-110 active:text-blue-300 border-b-2 border-blue-600 md:border-none">
                             <Link to="/contact" className="nav-links" onClick={closeMenu}>
                                 Contact
                             </Link>

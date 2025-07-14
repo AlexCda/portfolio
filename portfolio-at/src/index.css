@@ -6,3 +6,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+    background-color: #d8eeff;
+    position: absolute;
+}
+
+
+h3 {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+    text-transform: uppercase;
+}
+  
+  
+.petit-formal-script-regular {
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.meow {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* ********** ANIMATION POUR LE HERO ********** */
+
+
+@keyframes blinkTextCursor {
+    0% {
+      border-right-color: rgba(255, 255, 255, .75);
+    }
+    49% {
+      border-right-color: rgba(255, 255, 255, .75);
+    }
+    50% {
+      border-right-color: transparent;
+    }
+    100% {
+      border-right-color: transparent;
+    }
+}
+
+
+@keyframes typing {
+from { width: 0 }
+to { width: 16ch }
+}
+
+.typewriter {
+overflow: hidden;
+border-right: .15em solid black;
+white-space: nowrap;
+margin: 0 auto;
+letter-spacing: .15em;
+animation: 
+    typing 3.5s steps(16, end),
+    blinkTextCursor 500ms steps(133) infinite normal;
+}
+  
