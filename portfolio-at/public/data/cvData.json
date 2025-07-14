@@ -1,0 +1,191 @@
+{
+    "education": [
+        {
+            "id": 1,
+            "title": "Titre professionnel Concepteur développeur d'applications (nv.6)",
+            "school": "CCI Campus",
+            "location": "Strasbourg",
+            "startDate": "2024",
+            "endDate": "2025",
+            "description": "Acquisition de compétences en conception et développement d'applications, y compris la programmation orientée objet, la gestion de bases de données et les technologies web. Réalisation de divers projets utilisant PHP, JavaScript et SQL.",
+            "image": "/assets/images/exp1.jpg",
+            "alt":"ciel étoilé",
+            "skills": [
+                "POO",
+                "PHP",
+                "UML",
+                "SQL",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Merise",
+                "Gestion de projet Agile",
+                "Docker"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Développeur d'application - Android",
+            "school": "OpenClassrooms",
+            "location": "OnLine",
+            "startDate": "2020",
+            "endDate": "2020",
+            "description": "Formation au développement d'applications Android robustes et accessibles avec les langages de programmation Kotlin et Java.",
+            "image":"/assets/images/exp3.jpg",
+            "alt":"ciel étoilé",
+            "skills": [
+                "Analyser et concevoir une solution informatique",
+                "Développer une solution informatique",
+                "Maintenir et livrer une solution informatique",
+                "Développer une interface utilisateur dynamique"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "DUT Génie Civil",
+            "school": "IUT Robert Schuman",
+            "location": "Illkirch",
+            "startDate": "2001",
+            "endDate": "2003",
+            "description": "Formation de technicien supérieur - cadre intermédiaire dans les domaines du bâtiment, des équipements du bâtiment ainsi que des travaux publics.",
+            "image":"/assets/images/exp6.jpg",
+            "alt":"ciel étoilé",
+            "skills": [
+                "Positionnement vis à vis d’un champ professionnel",
+                "Elaborer des solutions techniques de tout ou partie d’un projet",
+                "Dimensionner des ouvrages et des équipements techniques du BTP",
+                "Organiser un chantier",
+                "Piloter techniquement un ouvrage tout au long de sa vie"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "IUT Informatique",
+            "school": "IUT Nor Franche-Comté",
+            "location": "Belfort",
+            "startDate": "2000",
+            "endDate": "2001",
+            "description": "Formation en Conception, Programmation et Maintenance des systèmes informatiques.",
+            "image":"/assets/images/exp9.jpg",
+            "alt":"ciel étoilé",
+            "skills": []
+        }
+    ],
+
+    "experiences": [
+        {
+            "id": 1,
+            "title": "Conducteur de travaux",
+            "company": "Sarl Bat-Teix",
+            "location": "Hésingue",
+            "startDate": "2003",
+            "endDate": "2023",
+            "description": "Supervision, coordination et planification de l'ensemble des travaux sur les chantiers, en veillant à respecter les délais, le budget, la qualité et les normes de sécurité. Autre fonctions telles que géomètre, rédacteur de devis et conducteur d'engins.",
+            "image":"/assets/images/exp2.jpg",
+            "alt":"ciel étoilé",
+            "skills": [
+                "Gestion de projet",
+                "Management et communication",
+                "Prise de décision",
+                "Sens des responsabilités",
+                "Capacité d'analyse"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Stagiaire en développement d'applications",
+            "company": "LDE",
+            "location": "Erstein",
+            "startDate": "2025",
+            "endDate": "2025",
+            "description": "Développement de modules dont un de revente de manuels scolaires et un de publipostage.",
+            "image":"/assets/images/exp4.jpg",
+            "alt":"ciel étoilé",   
+            "skills": [
+                "PHP",
+                "Symfony",
+                "Docker",
+                "Webpack",
+                "Bootstrap",
+                "Agile",
+                "UML",
+                "Merise"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "title": "Frontend",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Bootstrap",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Backend",
+            "skills": [
+                "Node.js",
+                "Express",
+                "PHP",
+                "Symfony",
+                "Java"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Database",
+            "skills": [
+                "MySQL",
+                "MariaDB",
+                "PostgreSQL",
+                "GraphQL"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "DevOps",
+            "skills": [
+                "Docker",
+                "Git",
+                "GitHub",
+                "GitLab"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Gestion de projet",
+            "skills": [
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "ScrumBan"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Langues",
+            "skills": [
+                "Français",
+                "Anglais",
+                "Portugais"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Soft skills",
+            "skills": [
+                "Esprit d'équipe",
+                "Adaptabilité",
+                "Organisation",
+                "Autonomie"
+            ]
+        }
+    ]
+}
