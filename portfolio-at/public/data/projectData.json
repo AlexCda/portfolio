@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "title": "Moviz",
+            "link": "project1",
+            "url": "https://moviz-gamma.vercel.app/",
+            "image": "/assets/images/projet1.jpg",
+            "screenshots":["/assets/images/projects/Moviz1.png","/assets/images/projects/Moviz2.png", "/assets/images/projects/Moviz3.png"],
+            "alt": "illustration projet 1",
+            "description": "Avec Moviz, crée ta propre liste de films, note ceux que tu as vus et découvre de nouveaux films à regarder. Plus besoin de te souvenir de tous les titres, tout est stocké en un seul endroit.",
+            "date": 2025,
+            "technologies": ["/assets/pictos/react.svg", "/assets/pictos/css.png", "/assets/pictos/javascript.png"],
+            "features": ["Authentification", "Compte utilisateur", "Commentaires"]
+        },
+        {
+            "title": "Accords",
+            "link": "project2",
+            "url":"",
+            "image": "/assets/images/projet2.jpg",
+            "screenshots":["/assets/images/projects/Accords1.png", "/assets/images/projects/Accords3.png"],
+            "alt": "illustration projet 2",
+            "description": "Accords est une application de mise en relation de musiciens. Elle facilite les rencontres musicales à l'aide d'un annuaire doté d'une recherche dynamique et d'un système de conversation.",
+            "date": 2025,
+            "technologies": ["/assets/pictos/react.svg", "/assets/pictos/postgresql.svg", "/assets/pictos/css.png", "/assets/pictos/javascript.png", "/assets/pictos/api.png"],
+            "features": ["Profil utilisateur", "Messagerie", "Recherche dynamique"]
+        },
+        {
+            "title": "Pizzeria",
+            "link": "project3",
+            "url":"https://react-page-commande-pizza.vercel.app/",
+            "image": "/assets/images/projet3.jpg",
+            "screenshots":["/assets/images/projects/Pizzeria1.png","/assets/images/projects/Pizzeria2.png"],
+            "alt": "illustration projet 3",
+            "description": "Application simulant une page de commande de pizzas.",
+            "date": 2024,
+            "technologies": ["/assets/pictos/react.svg", "/assets/pictos/css.png", "/assets/pictos/javascript.png"],
+            "features": ["Boutons interactifs", "Calcul de prix", "Modale de sélection du nombre de pizzas"]
+        },
+        {
+            "title": "Adventure Peace & Nature",
+            "link": "project4",
+            "url":"http://alexandre.teixeira.servd16161.odns.fr/APN/",
+            "image": "/assets/images/projet4.jpg",
+            "screenshots":["/assets/images/projects/APN1.png", "/assets/images/projects/APN2.png", "/assets/images/projects/APN3.png"],
+            "alt": "illustration projet 4",
+            "description": "APN est l'application de gestion des activités d'un parc de loisir. On peut gérer les activités, les membres, les séances d'activité et la participation à ces dernières.",
+            "date": 2024,
+            "technologies": ["/assets/pictos/php.png", "/assets/pictos/mysql.png", "/assets/pictos/html.png", "/assets/pictos/css.png", "/assets/pictos/javascript.png", "/assets/pictos/bootstrap.svg"],
+            "features": ["Create Read Update Delete", "Séparation stricte des responsabilités MVC"]
+        }
+    ]
+}

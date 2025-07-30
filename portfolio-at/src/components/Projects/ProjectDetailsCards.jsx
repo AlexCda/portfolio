@@ -1,19 +1,39 @@
-import enConstruction from '../../assets/images/enConstruction.jpg'
+import { useContext } from 'react';
+import SecondHeader from '../Header/SecondHeader';
+import ProjectDetailsCard from './ProjectDetailsCard';
+import { ProjectContext } from '../../contexts/ProjectContext';
 
 const ProjectDetailsCards = () => {
 
+    const { projects } = useContext(ProjectContext);
 
     return (
-        <section id='home'>
-            <div className="hero-container relative px-10 py-10 h-100vh">
-                <img src={enConstruction} alt="ciel étoilé"
-                    className='w-full h-150 object-cover' />
-                <div className='absolute inset-0 flex flex-col items-center justify-center text-center'>
-                    <div className='bg-white/10 backdrop-blur-sm rounded-lg p-5 md:p-20 max-w-2xl mx-auto'>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-[poppins] text-gray-300">En construction</h1>
+        <section id="projects" className="project-details-cards mt-5">
+            {
+                projects.map((project, index) => (
+                    <div key={project.alt}>
+                        {/* Ne pas afficher le composant secondHeader poiur le 1er élémeny */}
+                        {index !== 0 && <SecondHeader key={project.title}/>}
+                        <ProjectDetailsCard
+                            key={index}
+                            index={index + 1}
+                            title={project.title}
+                            description={project.description}
+                            image={project.image}
+                            alt={project.alt}
+                            id={project.link}
+                            date={project.date}
+                            techs={project.technologies}
+                            features={project.features}
+                            link={project.link}
+                            screenshots={project.screenshots}
+                            url={project.url}
+                        />
+
                     </div>
-                </div>
-            </div>
+
+                ))
+            }
         </section>
     );
 };
